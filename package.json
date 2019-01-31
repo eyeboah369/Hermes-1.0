@@ -1,0 +1,19 @@
+{
+  "name": "hermes1.0",
+  "version": "1.0.0",
+  "description": "Administrative tool for inter-computer communication",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron .",
+    "start": "electron ."
+  },
+  "author": "Evans Yeboah Jr.",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "python-shell": "^1.0.7"
+  }
+}
