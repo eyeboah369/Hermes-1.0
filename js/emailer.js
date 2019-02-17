@@ -5,14 +5,14 @@ var transporter = nodemailer.createTransport = ({
     service: 'gmail',
 
     auth: {
-        user: 'eyeboahcw@gmail.com',
-        password: 'classwish',
+        user: '',
+        password: '',
     }
 });
 
 var mailOptions = {
-    from: 'eyeboahcw@gmail.com',
-    to: 'eyeboah369@gmail.com',
+    from: '',
+    to: '',
     subject: 'Invitation to connect (Hermes)',
     text: 'Message has been received'
 }
