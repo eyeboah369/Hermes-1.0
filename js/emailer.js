@@ -1,25 +1,10 @@
-var express = require('express');
-var nodemailer = require('nodemailer');
+const nodemailer = require('nodemailer');
 
-var transporter = nodemailer.createTransport = ({
-    service: 'gmail',
+let transporter = nodemailer.createTransport ({
+    host: 'eyeboah369@gmail.com';
+    password: "newtonthegreat";
+})
 
-    auth: {
-        user: 'eyeboahcw@gmail.com',
-        password: 'classwish',
-    }
-});
+/*function()({
 
-var mailOptions = {
-    from: 'eyeboahcw@gmail.com',
-    to: 'eyeboah369@gmail.com',
-    subject: 'Invitation to connect (Hermes)',
-    text: 'Message has been received'
-}
-
-transporter.sendMail(mailOptions, function(error, info){
-    if(error){
-        return console.log(error);
-    }
-    console.log('Message sent: ' + info.response);
-});
+})*/
