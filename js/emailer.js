@@ -1,8 +1,8 @@
 const nodemailer = require('nodemailer');
 
 let transporter = nodemailer.createTransport ({
-    host: '';
-    password: '';
+    host: '',
+    password: '',
 })
 
 /*function()({
